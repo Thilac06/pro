@@ -1,0 +1,131 @@
+body{
+    background-image: url(Large-and-powerful-graphics-card-with-three-fans-with-blue-pink-light.jpeg);
+    background-size: cover;
+}
+
+
+
+
+.wrapper{
+    background-color: rgb(255, 255, 255);
+    top: 10%;
+    border-radius: 20px;
+   display: block;
+   width:1000px;
+   height: 500px;
+   line-height: 400%;
+   border: 1px solid black;
+    position: absolute;
+    right: 10%;
+    box-shadow: 0 0 1em;
+    animation: ani 1.5s;
+}
+
+.conn{
+   position: relative;
+   right: -10%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 800;
+   font-size: x-large;
+}
+
+.btn{
+    position: relative;
+    top:2%;
+    right: -30%;
+}
+
+input[type="text"]{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: large;
+    font-style: italic;
+    border: 1px solid black;
+    
+    border-radius: 20px;
+}
+input[type="date"]{
+    border: 1px solid black;
+    
+    border-radius: 20px;
+}
+
+.box{
+   width: 200px;
+    height: 100px;
+}
+input[type="submit"]{
+    border: 1px solid black;
+    color: azure;
+    background-color: black;
+    width: 20%;
+    height: 13%;
+    border-radius: 20px;
+    font-size: x-large;
+}
+
+.dd{
+    
+}
+.ss{
+    width: 70%;
+    height: 60px;
+}
+
+.oo{
+    width: 40%;
+    height: 50px;
+}
+
+input[type="number"]{
+    border: 1px solid black;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.co{
+ height: 40px;
+}
+
+@keyframes ani {
+    0%{
+        right: 100%;
+
+    }
+    
+    
+    
+    100%{
+        top: 10%;
+        right: 10%;
+    }
+   
+}
+
+input[type="submit"]:hover{
+    transform: scale(110%);
+    background-color: rgb(47, 44, 44);
+
+}
+
+.ms{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    animation: ani2 1s;
+}
+
+@keyframes ani2 {
+    0%,100%{
+        transform: scale(100%);
+    }
+    50%{
+       transform: scale(200%);
+    }
+}
+
+
+   

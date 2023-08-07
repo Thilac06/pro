@@ -1,0 +1,273 @@
+body{
+    background-image: url(computer-internals-with-red-LED-and-RGB-GettyImages-ebb5630f80ee4f8e874dd787739ad3cb.jpg);
+    background-position: fixed;
+    background-size: cover;
+   
+    
+
+}
+.ns{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 1em;
+    top: 10%;
+    left: 10%;
+    background-image: url(books.gif);
+    background-repeat: no-repeat;
+    background-size: 50% ;
+    animation: ns1 1s;
+    
+
+}
+
+.pd{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 1em;
+    top: 10%;
+    left: 60%;
+    background-image: url(repair-tools.gif);
+    background-repeat: no-repeat;
+    background-size: 50% ;
+    animation: pd1 1s;
+}
+
+
+.am{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 1em;
+    top: 70%;
+    left: 60%;
+    background-image: url(money-bag.gif);
+    background-repeat: no-repeat;
+    background-size: 50% ;
+    animation: am1 1s;
+}
+
+.ne{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 1em;
+    top: 70%;
+    left: 10%;
+    background-image: url(factory.gif);
+    background-repeat: no-repeat;
+    background-size: 50% ;
+    animation: ne1 1s;
+}
+
+@keyframes ns1 {
+    0%{
+        left:-50%;
+    }
+    100%{
+        top: 10%;
+        left: 10%;
+    }
+    
+}
+
+@keyframes ne1 {
+    0%{
+        left:-50%;
+    }
+    100%{
+        top: 70%;
+        left: 10%; 
+    }
+    
+}
+
+@keyframes pd1 {
+    0%{
+        left:150%;
+    }
+    100%{
+        top: 10%;
+        left: 60%; 
+    }
+    
+}
+
+
+@keyframes am1 {
+    0%{
+        left:150%;
+    }
+    100%{
+        top: 70%;
+        left: 60%; 
+    }
+    
+}
+
+.tex{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top:35%;
+    left:10%;
+    
+    
+}
+
+.tex2{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top:35%;
+    right:-10%;
+}
+
+.tex3{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top:45%;
+    left:10%;
+}
+
+.tex4{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top:45%;
+    left:15%;
+    
+}
+
+.dd{
+    position: relative;
+    left:50%;
+    font-size:100px;
+    font-style: bold;
+    font-weight: 600;
+    color: aqua;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+a:link,a:visited{
+    position: absolute;
+
+    text-decoration: none;
+    font-family: 'Helvetica';
+    right: 20%;
+    font-size: xx-large;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+
+}
+
+a:hover{
+    text-decoration: underline 4px;
+    transform: scale(120%);
+}
+
+.he{
+    position: absolute;
+    right: 10%;
+}
+
+@media screen and (max-width: 600px) {
+   .ns,.pd,.am,.ne{
+    transform: scale(60%);
+   }
+   .ns{
+    position: absolute;
+    left: -13%;
+    top: 5%;
+   }
+
+   .ne{
+    position: absolute;
+    left: -13%;
+    top: 45%;
+
+   }
+
+
+   .am{
+    position: absolute;
+    left: -13%;
+    top: 85%;
+   }
+
+   .pd{
+    position: absolute;
+    left: -13%;
+    top: 125%;
+   }
+
+   @keyframes ns1 {
+    0%{
+        left:-50%;
+    }
+    100%{
+        top: 5%;
+        left: -13%;
+    }
+    
+}
+
+@keyframes ne1 {
+    0%{
+        left:-50%;
+    }
+    100%{
+        top: 45%;
+        left: -13%; 
+    }
+    
+}
+
+@keyframes pd1 {
+    0%{
+        left:150%;
+    }
+    100%{
+        top: 125%;
+        left: -13%; 
+    }
+    
+}
+
+
+@keyframes am1 {
+    0%{
+        left:150%;
+    }
+    100%{
+        top: 85%;
+        left: -13%; 
+    }
+    
+}
+   
+
+a:link,a:visited{
+    position: absolute;
+
+    text-decoration: none;
+    font-family: 'Helvetica';
+    right: 30%;
+    font-size: small;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+
+}
+  
+    }
+

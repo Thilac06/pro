@@ -1,0 +1,39 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+}
+
+body
+{
+	background-image: url("Background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#ResponseText
+{
+	color: #2c2c2c;
+	text-align: center;
+	cursor: pointer;
+}
+
+#InputBox
+{
+	background-color: #2c2c2c;
+	color: #f9f9f9;
+	text-align: center;
+	font-size: 27px;
+	border: none;
+	border-radius: 50px;
+	outline: none;
+	width: 720px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
